@@ -10,12 +10,12 @@ public class Mage implements GameCharacter{
     }
 
     public String getName() { return name; }
-    public int getmana() { return mana; }
+    public int getMana() { return mana; }
     public void setMana(int mana) { this.mana = mana; }
     public int getShield() { return shield; }
 
     @Override
     public void accept(GameVisitor visitor) {
-        visitor.visit(this); // Двойная диспетчеризация для Мага
+        visitor.visit(this);
     }
 }

@@ -7,7 +7,7 @@ public class BuffVisitor implements GameVisitor{
 
     @Override
     public void visit(Mage mage) {
-        mage.setMana(mage.getmana() + 50);
+        mage.setMana(mage.getMana() + 50);
         System.out.println("Buff applied: Mage " + mage.getName() + " got +50 Mana!");
     }
 }

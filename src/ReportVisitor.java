@@ -6,6 +6,6 @@ public class ReportVisitor implements GameVisitor{
 
     @Override
     public void visit(Mage mage) {
-        System.out.println("[Report] Mage: " + mage.getName() + " | Mana: " + mage.getmana() + " | Shield: " + mage.getShield());
+        System.out.println("[Report] Mage: " + mage.getName() + " | Mana: " + mage.getMana() + " | Shield: " + mage.getShield());
     }
 }
